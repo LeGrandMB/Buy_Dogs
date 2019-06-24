@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>万宝龙“狗子"商店</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js"></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <h2 class="shop-name">来宝龙商店挑选“狗子”吧</h2>
+        </header>
+		<div class="topnav">
+			<a class="active" href="index.html">Store Page</a>
+			<a href="about.html">关于宝龙商店</a>
+			<a href="contact.html">联系</a>
+			<input type="text" placeholder="Search..">
+		</div>
+
+		<div class="container">
+			<div style="text-align:center">
+				<h2>联系宝龙</h2>
+				<p>没有中意的狗子？宝龙帮你找。</p>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="Images/logo.png" style="width:200px">
+				</div>
+				<div class="column">
+					<form action="/action_page.php">
+						<label for="name">姓名</label>
+						<input type="text" id="name" name="name" placeholder="您的姓名..">
+						<label for="city">城市</label>
+						<select id="city" name="city">
+							<option value="australia">上海</option>
+							<option value="canada">北京</option>
+							<option value="usa">广州</option>
+							<option value="canada">深圳</option>
+							<option value="usa">重庆</option>
+							<option value="canada">台北</option>
+							<option value="usa">杭州</option>
+							<option value="canada">武汉</option>
+							<option value="usa">重庆</option>
+						</select>
+						<label for="subject">留言</label>
+						<textarea id="subject" name="subject" placeholder="想要什么样的“狗子”.." style="height:170px"></textarea>
+						<input type="submit" value="提交">
+					</form>
+				</div>
+			</div>
+		</div>
+
+		
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3>万宝龙“狗子"商店 © 2019 All rights reserved.</h3>
+            </div>
+        </footer>
+    </body>
+</html>
