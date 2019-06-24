@@ -6,6 +6,15 @@
     padding-bottom: 30px;
 }
 
+.main-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: black;
+  text-align: center;
+}
+
 .shop-name-small {
     font-size: 1em;
 }
@@ -15,8 +24,8 @@
 	vertical-align: middle;
     margin: 0;
 	font-size: 3em;
-    font-weight: normal;
-    color: white;
+    font-weight: bold;
+    color: grey;
 }
 
 .content-section {
@@ -24,7 +33,7 @@
 }
 
 .container {
-    max-width: 1800px;
+    max-width: 1;
     margin: 0 auto;
     padding: 0 1.5em;
 }
@@ -321,7 +330,7 @@
   float: left;
   width: 50%;
   margin-top: 6px;
-  padding: 20px;
+  padding: 15px;
 }
 
 /* Clear floats after the columns */
