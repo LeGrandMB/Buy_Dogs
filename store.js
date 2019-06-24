@@ -110,3 +110,7 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+function goBack() {
+  window.history.back();
+}
