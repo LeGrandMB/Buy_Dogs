@@ -52,14 +52,14 @@
 }
 
 .section-header {
-    font-weight: normal;
+    font-weight: bold;
     color: #333;
     text-align: center;
     font-size: 2.5em;
 }
 
 .section-content {
-    font-weight: normal;
+    font-weight: bold;
     color: #333;
     text-align: center;
     font-size: 2em;
@@ -145,6 +145,7 @@
 }
 
 .shop-item-price {
+	font-weight: bold;
     flex-grow: 1;
     color: black;
 	font-size: 1.2em;
