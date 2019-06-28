@@ -375,3 +375,46 @@
     margin-top: 0;
   }
 }
+
+/*-------------inline----------------------*/
+div.inline {
+        float:center; 
+		text-align: center;
+		font-weight: bold;
+		font-size: 1.8em;
+    }
+    
+.clearBoth{ 
+     clear:both; 
+ }
+
+#number {
+	font-size: 5em;
+	color: green;
+}
+
+#dogname {
+	font-size: 3em;
+	color: blue;
+}
+
+button {
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+button:hover {
+	background-color: darkgreen;
+}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(0px);
+}
+ 

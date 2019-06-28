@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>随机选择狗子</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="random.js"></script>
+	</head>
+
+	<body>
+        <header class="main-header">
+            <h2 class="shop-name">来宝龙商店挑选“狗子”吧</h2>
+        </header>
+		<div class="topnav">
+			<a href="index.html">狗子选购</a>
+			<a href="about.html">关于宝龙商店</a>
+			<a href="contact.html">联系店长宝龙</a>
+			<a class="active" href="random.html">随机狗子</a>
+			<input type="text" placeholder="Search..">
+		</div>
+
+		<div class="container">
+			<div style="text-align:center">
+				<h1> 选择困难？让宝龙为你随机选择一个狗子吧！</h1>
+				
+				<button id="b" onclick="random();showstart();showend();showdogname();showpic();"> 点我挑一个狗子/换一个狗子 </button>
+				<hr>
+				<section class="container content-section">
+					<div id="start" class="inline"></div>
+					<div id="number" class="inline"> 谁会被选中呢？</div>
+					<div id="end" class="inline"></div>
+					<div id="dogname" class="inline"></div>
+					<img alt="" src="http://www.userinterfaceicons.com/80x80/minimize.png" style="height: 250px;" id="imgClickAndChange" />
+					<br class="clearBoth" />
+				</section>
+				<hr>
+				<button id="back" onclick="location.href='index.html';"> &#xab;返回狗子选购 </button>
+			</div>
+		</div>
+		
+		<footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3>万宝龙“狗子"商店 © 2019 All rights reserved.</h3>
+            </div>
+        </footer>
+	</body>
+
+</html>
+
