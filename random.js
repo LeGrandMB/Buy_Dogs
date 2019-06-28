@@ -40,19 +40,27 @@ function showdogname() {
 function showpic() {
 	if (numberofdog == 1) {
 		document.getElementById("imgClickAndChange").src="Images/js-1.jpg";
+		document.getElementById("imgClickAndChangeLink").href="Dogs/dog1.html";
 	} else if (numberofdog == 2) {
 		document.getElementById("imgClickAndChange").src="Images/js-2.jpg";
+		document.getElementById("imgClickAndChangeLink").href="Dogs/dog2.html";
 	} else if (numberofdog == 3) {
 		document.getElementById("imgClickAndChange").src="Images/js-3.jpg";
+		document.getElementById("imgClickAndChangeLink").href="Dogs/dog3.html";
 	} else if (numberofdog == 4) {
 		document.getElementById("imgClickAndChange").src="Images/js-4.jpg";
+		document.getElementById("imgClickAndChangeLink").href="Dogs/dog4.html";
 	} else if (numberofdog == 5) {
 		document.getElementById("imgClickAndChange").src="Images/cn66-1.jpg";
+		document.getElementById("imgClickAndChangeLink").href="Dogs/dog5.html";
 	} else if (numberofdog == 6) {
 		document.getElementById("imgClickAndChange").src="Images/cn66-2.jpg";
+		document.getElementById("imgClickAndChangeLink").href="Dogs/dog6.html";
 	} else if (numberofdog == 7) {
 		document.getElementById("imgClickAndChange").src="Images/cn66-3.jpg";
+		document.getElementById("imgClickAndChangeLink").href="Dogs/dog7.html";
 	} else {
 		document.getElementById("imgClickAndChange").src="Images/cn66-4.jpg";
+		document.getElementById("imgClickAndChangeLink").href="Dogs/dog8.html";
 	}
 }
